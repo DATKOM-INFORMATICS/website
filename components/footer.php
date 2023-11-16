@@ -1,69 +1,48 @@
-<footer>
+    <!-- Footer -->
 
-    <div class="container">
+    <footer>
 
-        <div class="row">
+        <div class="container">
 
-            <div class="col-md-2">
-                <p style="color: #fff">Nous suivre</p>
-            </div>
+            <div class="row">
 
-            <div class="col-md-9" id="liensUtiles">
+                <div class="col-md-4" id="liensUtiles">
+                    <p style="color: #fff">Nous suivre</p>
+                    <a href="https://www.instagram.com/datkominformatics/">Instagram</a> <br>
+                    <a href="https://twitter.com/datkominfrmtics">Twitter</a>
+                </div>
 
-                <a href="https://www.instagram.com/datkominformatics/">Instagram</a>
-                <a href="https://twitter.com/datkominfrmtics">Twitter</a>
+                <div class="col-md-4" id="liensUtiles">
+                    <p style="color: #fff">À propos</p>
+                    <a href="https://www.datkominformatics.com/about/">L'entreprise</a> <br>
+                    <a href="https://www.datkominformatics.com/apps/">Les apps</a> <br>
+                    <a href="https://www.datkominformatics.com/assistance/">Assistance</a> <br>
+                    <a href="mailto:bonjour@datkominformatics.com">Nous contacter</a>
+                </div>
 
-            </div>
+            </div>    
 
-        </div>    
+            <hr style="color: #fff">
 
-        <hr style="color: #fff">
+            <div class="row mt-5 homepage-footer-juridical">
 
-        <div class="row">
+                <div class="col-md-9">
 
-            <div class="col-md-4" id="footer-contact">
+                    <a href="../"data-stick-cursor>
+                        <img id="logo-abbr" src="../assets/img/Brands/Logo-White.svg" alt="logo">
+                    </a>
 
-                <a href="mailto:bonjour@datkominformatics.com"><i data-feather="mail"></i>  bonjour@datkominformatics.com</a> <br>
-                <hr style="color: #fff;">
-               
-            </div>
+                    <span class="px-3"> Copyright © <script>document.write(new Date().getFullYear())</script> DATKOM INFORMATICS. Tous droits réservés.</span>
 
-            <div class="col-md-4" id="liensPrincipales">
+                    <!-- <a href="">Mentions Legales</a>
+                    <a href="">Politique de confidentialité</a> -->
 
-                <a href="../about/">L'entreprise</a> <br>
-                <a href="../products/">Les produits</a> <br>
-                <a href="../expericences/">Les expériences</a> <br>
-                <a href="../assistance/">Assistance</a>
-
-            </div>
-
-
-            <div class="col-md-4" id="liensUtiles">
-
-                <!-- <a href="../blog/">Blog</a> <br> -->
-                <a href="../newsletters/">Newsletters</a> <br>
+                </div>
 
             </div>
 
         </div>
 
-        <div class="row homepage-footer-juridical">
+    </footer>
 
-            <div class="col-md-9">
-
-                <a href="../"data-stick-cursor>
-                    <img id="logo-abbr" src="../assets/img/Brands/Logo-White.svg" alt="logo">
-                </a>
-
-                <span class="px-3">© <script>document.write(new Date().getFullYear())</script> DATKOM INFORMATICS</span>
-
-                <!-- <a href="">Mentions Legales</a>
-                <a href="">Politique de confidentialité</a> -->
-
-            </div>
-
-        </div>
-
-    </div>
-
-</footer>
+<!-- Footer End -->

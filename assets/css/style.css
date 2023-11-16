@@ -296,7 +296,7 @@ a{
     top: 0;
     width: 100%;
     background-color: white;
-    border-bottom: 1px solid #087CEE;
+    /*border-bottom: 1px solid #087CEE; */
     z-index: 2;
 
 }
@@ -308,8 +308,8 @@ a{
 /* FOOTER */
 footer{
     background-color: #087CEE;
-    height: 80vh;
     padding-top: 10vh;
+    padding-bottom: 5vh;
 }
 #liensPrincipales a{
     color: #fff;
@@ -320,7 +320,7 @@ footer{
     font-size: 16px;
 }
 .homepage-footer-juridical{
-    margin-top: 15vh !important;
+    margin-top: 1vh !important;
     color: #fff;
 }
 .homepage-footer-juridical a{

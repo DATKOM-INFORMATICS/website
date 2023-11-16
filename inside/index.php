@@ -50,7 +50,7 @@
 
     <!--  -->
     
-    <title>Assistance • datkominformatics | Entreprise Informatique</title>
+    <title>Inside • datkominformatics | Entreprise Informatique</title>
 </head>
 <body>
     
@@ -83,16 +83,16 @@
 
     <!-- Header CTA -->
 
-        <div class="container-fluid"  id="about-header-cta">
+        <div class="container-fluid"  id="exp-header-cta">
 
             <div class="container header-cta">
 
                 <div class="row justify-content-center">
     
-                    <div class="col-md-10 text-center">
+                    <div class="col-md-8 text-center">
     
-                        <h1 id="apps-header-title">Bonjour, comment pouvons-nous vous aider ?</h1>
-
+                        <h1 id="exp-header-title">Encore plus grand.</h1>
+                        <p class="about-text text-center">En 2024, créez, gardez le contact et faites-en toujours plus grâce à des apps aussi puissantes qu’intuitives, conçues pour être accessibles, privées et sécurisées.</p>
                     </div>
     
                 </div>
@@ -103,47 +103,6 @@
 
     <!-- Header CTA End -->
 
-    <!-- Vision -->
-
-        <div class="container mb-5">
-
-            <div class="row justify-content-center my-1">
-
-            <div class="col-md-6">
-
-                <div class="culturecard" style="background-color: #087CEE;color: #fff">
-                    <div class="px-3 text-center">
-                        <br>
-                        <h2 class="card-title" >Aide et assistance</h2>
-                        <br>
-                        <p>Nous serons ravis de répondre à toutes vos questions relatives aux produits et services.</p>
-                        <a href="mailto:support@datkominformatics.com" style="background-color: #fff;color: #087CEE;padding: 1.2vh;border-radius: 1vh;">Obtenir de l'aide</a>
-                    </div>
-                </div>
-
-            </div>
-            <div class="col-md-6">
-
-                <div class="culturecard">
-                    <div class="px-3 text-center">
-                        <br>
-                        <h2 class="card-title" style="color: #087CEE">Nous contacter</h2>
-                        <br>
-                        <p>Dites-nous tout. Vous souhaitez travailler avec nous, ou simplement nous dire bonjour ?</p>
-                        <a href="mailto:bonjour@datkominformatics.com" style="background-color: #087CEE;color: #FFF;padding: 1.2vh;border-radius: 1vh;">Engagez la discussion</a>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-
-        </div>
-    
-    <!-- Vision End -->
-
-    <br>
-
     <!-- Footer -->
 
         <?php include_once '../components/footer.php'; ?>
@@ -153,7 +112,6 @@
 
     <!-- JavaScript -->
     <script src="../assets/js/main.js"></script>
-    <script src="../assets/js/carousel.js"></script>
 
 </body>
 </html>

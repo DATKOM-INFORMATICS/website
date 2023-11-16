@@ -39,20 +39,18 @@
                     
                     <nav class="overlay-menu">
 
-                        <ul>
+                            <ul>
 
-                            <li><a href="../">Accueil</a></li>
-    
-                            <li><a href="../products/">Produits</a></li>
-    
-                            <li><a href="../experiences/">Expériences</a></li>
+                                <li><a href="https://www.datkominformatics.com/">Accueil</a></li>
+        
+                                <li><a href="https://www.datkominformatics.com/apps/">Apps</a></li>
 
-                            <li><a href="../about/">A propos de nous</a></li>
+                                <li><a href="https://www.datkominformatics.com/about/">A propos de nous</a></li>
 
-                            <li><a href="../assistance/">Assistance</a></li>
+                                <li><a href="https://www.datkominformatics.com/assistance/">Assistance</a></li>
 
-    
-                        </ul>
+        
+                            </ul>
 
                     </nav>
 

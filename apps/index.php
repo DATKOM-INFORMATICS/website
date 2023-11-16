@@ -2,6 +2,7 @@
 
     require_once '../config/index.php';
 
+
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -50,7 +51,7 @@
 
     <!--  -->
     
-    <title>Assistance • datkominformatics | Entreprise Informatique</title>
+    <title>Expériences • datkominformatics | Entreprise Informatique</title>
 </head>
 <body>
     
@@ -83,16 +84,16 @@
 
     <!-- Header CTA -->
 
-        <div class="container-fluid"  id="about-header-cta">
+        <div class="container-fluid"  id="apps-header-cta">
 
             <div class="container header-cta">
 
                 <div class="row justify-content-center">
     
-                    <div class="col-md-10 text-center">
+                    <div class="col-md-9 text-center">
     
-                        <h1 id="apps-header-title">Bonjour, comment pouvons-nous vous aider ?</h1>
-
+                        <h1 id="apps-header-title">Lumière sur nos apps signés.</h1>
+                        <p class="about-text">Des apps aussi puissantes qu’intuitives, conçues pour créer des expériences extraordinaires.</p>
                     </div>
     
                 </div>
@@ -103,44 +104,30 @@
 
     <!-- Header CTA End -->
 
-    <!-- Vision -->
+    <!-- Apps List -->
 
-        <div class="container mb-5">
+        <div class="container pb-5 mb-5">
 
-            <div class="row justify-content-center my-1">
+            <div class="row justify-content-center">
 
-            <div class="col-md-6">
+                <div class="col-md-9">
 
-                <div class="culturecard" style="background-color: #087CEE;color: #fff">
-                    <div class="px-3 text-center">
-                        <br>
-                        <h2 class="card-title" >Aide et assistance</h2>
-                        <br>
-                        <p>Nous serons ravis de répondre à toutes vos questions relatives aux produits et services.</p>
-                        <a href="mailto:support@datkominformatics.com" style="background-color: #fff;color: #087CEE;padding: 1.2vh;border-radius: 1vh;">Obtenir de l'aide</a>
+                   <div class="app-card text-center p-5" id="app-connect">
+
+                        <img src="../assets/img/Brands/connect.png" alt="" width="6%" class="my-2">
+                        <h1 class="card-title">Connect - The Student Guide.</h1>
+                        <p>Découvrez Connect : Le guide le plus sûr pour les étudiants étrangers en France.</p>
+                        <a href="connect/">En savoir plus</a>
+
                     </div>
+
                 </div>
 
             </div>
-            <div class="col-md-6">
-
-                <div class="culturecard">
-                    <div class="px-3 text-center">
-                        <br>
-                        <h2 class="card-title" style="color: #087CEE">Nous contacter</h2>
-                        <br>
-                        <p>Dites-nous tout. Vous souhaitez travailler avec nous, ou simplement nous dire bonjour ?</p>
-                        <a href="mailto:bonjour@datkominformatics.com" style="background-color: #087CEE;color: #FFF;padding: 1.2vh;border-radius: 1vh;">Engagez la discussion</a>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
 
         </div>
     
-    <!-- Vision End -->
+    <!-- Apps List End -->
 
     <br>
 
@@ -153,7 +140,6 @@
 
     <!-- JavaScript -->
     <script src="../assets/js/main.js"></script>
-    <script src="../assets/js/carousel.js"></script>
 
 </body>
 </html>

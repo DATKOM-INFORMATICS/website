@@ -83,7 +83,7 @@
 
     <!-- Header CTA -->
 
-        <div class="container-fluid"  id="about-header-cta">
+        <div class="container-fluid"  id="products-header-cta">
 
             <div class="container header-cta">
 
@@ -91,8 +91,9 @@
     
                     <div class="col-md-12 text-center">
     
-                        <h1 id="exp-header-title">La vision nous porte toujours plus loin.</h1>
-
+                        <h1 id="products-header-title">La barre est placée haut.<br>Et nous visons plus<br>haut encore.</h1>
+                        <p class="text-white">Apprenez-en davantage sur nous.</p>
+    
                     </div>
     
                 </div>
@@ -105,26 +106,20 @@
 
     <!-- Vision -->
 
-        <div class="container mb-5">
+        <div class="container py-5 my-5">
 
-            <div class="row justify-content-center responsive-none">
+                <div class="row justify-content-center">
+    
+                    <div class="col-md-10">
+    
+                        <p>Notre Vision</p>
+                        <h1 id="about-title">Plus grande et plus<br>claire pour vous.</h1>
+                        <p class="about-text col-md-8">Être la référence mondiale de l'innovation numérique, en créant des produits simples et utiles qui révolutionnent la vie des gens.</p>
 
-                <div class="col-md-10">
-                    <img src="https://images.unsplash.com/photo-1515444744559-7be63e1600de?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt="" width="100%">
+                    </div>
+    
                 </div>
-
-            </div>  
-
-            <div class="row justify-content-center">
-
-                <div class="col-md-8 text-center py-4">
-                    
-                    <br><br>
-                    <p>La création de produits excellents nécessite d'innover en sortant des sentiers battus, ce qui est une conviction profonde et permanente de notre entreprise. Nous nous définissons par l'innovation et la simplicité, et nous s'intéressons qu'aux marchés où nous pouvons apporter une contribution significative. Nous créeons des solutions numériques qui révolutionnent la vie des gens. Une collaboration étroite avec les utilisateur·ices est essentielle pour nous permettre une innovation que d'autres ne peuvent pas réaliser. Cette vision est tellement ancrée dans notre équipe qu'elle est capable de réussir n'importe quel projet, peu importe où elle se trouve.</p>
-                </div>
-
-            </div>
-
+    
         </div>
     
     <!-- Vision End -->
@@ -135,11 +130,12 @@
 
             <div class="row justify-content-center">
         
-                <div class="col-md-10 text-center">
+                <div class="col-md-10">
 
-                    <span>Notre Mission</span>
-                    <h1 id="about-title">Améliorer la vie du plus grand nombre grâce à la technologie.</h1>
-                    <br>
+                    <p>Notre Mission</p>
+                    <h1 id="about-title">Innovation pour<br>tout le monde.</h1>
+                    <p class="about-text col-md-8">Créer des solutions numériques innovantes et simples qui révolutionnent la façon dont les gens vivent, travaillent et interagissent.</p>
+
                 </div>
 
             </div>        
@@ -154,7 +150,7 @@
 
             <div class="row justify-content-center">
 
-                <div class="col-md-8 text-center">
+                <div class="col-md-10">
 
                     <br>
                     <h1 id="about-title">Nos valeurs sont au cœur de tout.</h1>
@@ -163,9 +159,9 @@
 
             </div>  
 
-            <div class="row">
+            <div class="row justify-content-center">
 
-                <div class="col-md-12">
+                <div class="col-md-1O">
 
                     <div class="slick-carousel">
 
@@ -173,15 +169,10 @@
 
                             <div class="homepage-valeurs">
 
-                                <h6>1.</h6>
-                                <hr>
-                                <br>
-
                                 <h3>Excellence</h3>
 
-                                <br>
-                                <p>Aucun défi n’est trop grand. Nous continuons à apprendre, à itérer et à nous améliorer.</p>
-                            
+                                <p>Nous nous efforçons d'être les meilleurs dans ce que nous faisons.</p>
+                                
                             </div>
 
                         </div>
@@ -189,15 +180,10 @@
                         <div class="homepage-valeurs-col">
 
                             <div class="homepage-valeurs">
-
-                                <h6>2.</h6>
-                                <hr>
-                                <br>
 
                                 <h3>Innovation</h3>
 
-                                <br>
-                                <p>Nous existons pour trouver une meilleure solution</p>
+                                <p>Nous existons pour trouver une meilleure solution.</p>
 
                             </div>
 
@@ -207,14 +193,9 @@
 
                             <div class="homepage-valeurs">
 
-                                <h6>3.</h6>
-                                <hr>
-                                <br>
+                                <h3>Intégration</h3>
 
-                                <h3>Passion</h3>
-
-                                <br>
-                                <p>Si vous êtes passionné par votre travail, vous serez meilleur.</p>
+                                <p>Nous créons un environnement inclusif et respectueux.</p>
 
                             </div>
 
@@ -223,99 +204,22 @@
                         <div class="homepage-valeurs-col">
 
                             <div class="homepage-valeurs">
-
-                                <h6>4.</h6>
-                                <hr>
-                                <br>
-
-                                <h3>Inclusivité</h3>
-
-                                <br>
-                                <p>Nous nous efforçons de créer un environnement inclusif afin de bâtir une meilleure entreprise et de donner un exemple positif au monde.</p>
-
-                            </div>
-
-                        </div>
-
-                        <div class="homepage-valeurs-col">
-
-                            <div class="homepage-valeurs">
-
-                                <h6>5.</h6>
-                                <hr>
-                                <br>
-
-                                <h3>Confiance</h3>
-
-                                <br>
-
-                                <p>Si l’on croit et que l’on fait confiance aux personnes qui nous entourent, tout est 
-                                possible. C’est pourquoi nous construisons notre lieu de travail sur la confiance, 
-                                le respect, l’inclusion et l’intégrité.
-                                </p>
-                                
-                            </div>
-
-                        </div>
-                        
-                        <div class="homepage-valeurs-col">
-
-                            <div class="homepage-valeurs">
-
-                                <h6>6.</h6>
-                                <hr>
-                                <br>
-
-                                <h3>Intégrité</strong></h3>
-
-                                <br>
-
-                                <p>Nous sommes honnêtes, transparents et déterminés à faire ce qu’il y a de mieux pour nos clients et notre entreprise.</p>
-                                
-                            </div>
-
-                        </div>
-
-                        <div class="homepage-valeurs-col">
-
-                            <div class="homepage-valeurs">
-
-                                <h6>7.</h6>
-                                <hr>
-                                <br>
-
-                                <h3>Bien-être</h3>
-
-                                <br>
-                                <p>Vous comptez énormément.<br>Être épanoui, c’est essentiel.<br>C'est pourquoi nous poursuivons notre engagement au bien être de chacun de nos collaborateurs, ainsi que de nos utilisateur·ices.</p>                                
-                            </div>
-
-                        </div>
-
-                        <div class="homepage-valeurs-col">
-
-                            <div class="homepage-valeurs">
-
-                                <h6>8.</h6>
-                                <hr>
-                                <br>
 
                                 <h3>Accessibilité</h3>
 
-                                <br>
+                                <p>Nous nous engageons à rendre nos produits et services accessibles à tous.</p>
 
-                                <p>Les meilleurs produits pas seulement dans les bonnes mains, mais dans toutes les mains.</p>
-                                
                             </div>
 
                         </div>
+
                     </div>
 
                 </div>
 
             </div>
 
-            <div class="row justify-content-end text-end">
+            <div class="row justify-content-center text-center">
 
                 <div class="col-md-6">
 
@@ -336,43 +240,40 @@
 
             <div class="row justify-content-center">
 
-                <div class="col-md-7 text-center">
+                <div class="col-md-10 text-center">
 
-                    <h1 id="about-title">Ce qu'il y a de mieux avec notre culture, c'est d'y voir notre Mindset</h1>
-
+                    <p>Notre culture</p>
+                    <h1 id="about-title">L'humain d'abord.</h1>
+                    <br>
                 </div>
 
             </div>        
 
-            <div class="row my-5">
+            <div class="row justify-content-center my-1">
 
-                <div class="col-md-6">
+                <div class="col-md-4">
 
-                    <div class="culturecard">
-                        <div class="card-body">
-                            <h4 class="card-title" style="color: #87CEEB">Tous créatifs</h4>
-                            <p class="card-text">
-                            Chaque collaborateur est libre d’envisager de nouvelles approches pour 
-                            résoudre des problèmes complexes, ils sont libres et encouragés à imaginer la 
-                            prochaine idée qui changera le monde
-                            </p>
+                    <div class="culturecard" style="background-color: #087CEE;">
+                        <div class="px-3 text-center">
+                            <br>
+                            <h2 class="card-title" style="color: #fff">Chaque voix peut ouvrir de nouvelles voies.</h2>
+                            <br>
                         </div>
                     </div>
 
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-4">
 
                     <div class="culturecard">
-                        <div class="card-body">
-                            <h4 class="card-title" style="color: #87CEEB">Comme les Mugiwara</h4>
-                            <p class="card-text">
-                            Nous sommes des compagnons sur un même bateau<br>
-                            Alors trouve ta place au sein de l'équipe et dessine, expérience après expérience, ton propre parcours.
-                            </p>
+                        <div class="px-3 text-center">
+                            <br>
+                            <h2 class="card-title" style="color: #087CEE">Ensemble aujourd'hui.<br>Et chaque jour.</h2>
+                            <br>
                         </div>
                     </div>
 
                 </div>
+
 
             </div>
 
@@ -380,7 +281,24 @@
 
     <!-- Culture End --> 
 
-    <br>
+    <!-- Projection -->
+
+        <div class="container py-5 my-5">
+
+            <div class="row justify-content-center">
+
+                <div class="col-md-10 text-center">
+
+                    <p>Initiative en action</p>
+                    <h1 id="about-title">Et ce n'est que le début.</h1>
+                    
+                </div>
+
+            </div>
+
+        </div>
+
+    <!-- Projection End --> 
 
     <!-- Footer -->
 

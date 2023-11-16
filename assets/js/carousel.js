@@ -2,7 +2,7 @@
 // Valeurs scroll
 
 $('.slick-carousel').slick({
-    infinite: false,
+    infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
     prevArrow: $('.Prec-btn'),

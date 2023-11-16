@@ -4,30 +4,53 @@
 }
 #homepage-header-cta{
     height: 100vh;
+    padding-top: 8vh;
+    background-color: #F8F8F8 !important;
 }
 #homepage-header-cta h1{
-    font-size: 65px;
-    color: #087CEE;
-    margin-top: 25vh;
+    font-size: 80px;
+    color: #6E61FF;
+    
 }
-#homepage-header-cta a, .prise-rdv{
-    font-size: 25px;
-    color: #087CEE;
+#homepage-header-cta a{
+    font-size: 18px;
+    color: #000000;
+    margin-right: 20px;
 }
 #homepage-header-cta a:hover, .prise-rdv:hover{
-    color: #fec401;
+    color: #6E61FF;
+}
+#dld{
+    background-color: #6e61ffcc;
+    color: #FFF !important;
+    padding: 10px;
+    border-radius: 5vh;
+}
+#dld:hover{
+    background-color: #6E61FF;
 }
 
 /*  */
 #woven{
     background-color: #087CEE;
-    color: #FFF;
+    color: #FFF !important;
+}
+#woven a{
+    color: #FFF !important;
+    font-size: 18px;
+}
+#woven a:hover{
+    color: #fec401 !important;
+    
+}
+#woven h1{
+    font-size: 50px;
 }
 #beyond{
     color: #087CEE;
+    font-size: 90px;
 }
 /*  */
-
 #cta-arrow{
     margin-left: 40%;
 }
@@ -135,9 +158,12 @@
 }
 #about-title{
  
-    font-size: 45px;
+    font-size: 60px;
     color: #087CEE;
     
+}
+.about-text{
+    font-size: 25px;
 }
 .homepage-valeurs-heart, .homepage-valeurs h3{
     color: #087CEE;
@@ -147,19 +173,83 @@
 }
 .homepage-valeurs{
     width: 100%;
-    height: 70vh;
     padding: 3vh 3vh;
-    border: 1px solid #676767;
+    border: 3px solid #087CEE;
+    border-radius: 2vh;
 }
 .homepage-valeurs h6, .true-valeurs{
     color: #fec401;
 }
 .culturecard{
-    border: 1px solid #676767;
+    border: 3px solid #087CEE;
     width: 100%;
+    border-radius: 2vh;
+    padding: 5vh;
+    text-align: center;
 }
-.culturecard h4{
-    color: #1f041a;
+/* #########################################################################"Apps */
+#apps-header-cta{
+
+    height: 80vh;
+
+}
+#apps-header-title{
+ 
+    font-size: 65px;
+    color: #087CEE;
+    margin-top: 30vh;
+    
+}
+.app-card{
+    color: #FFF;
+}
+.app-card a{
+    background-color: #fff;
+    color: #000000 !important;
+    padding: 10px;
+    border-radius: 5vh;
+}
+#app-connect{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    border-radius: 5vh;
+    background-blend-mode: multiply;
+    background-image: url('https://images.unsplash.com/photo-1606761568499-6d2451b23c66?q=80&w=2763&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    padding-top: 25vh !important;
+}
+
+#connect-header-cta{
+    height: 100vh;
+    padding-top: 8vh;
+    background-color: #6E61FF !important;
+}
+#connect-header-cta h1{
+    font-size: 80px;
+    color: #fff;
+    
+}
+#tlco{
+    background-color: #fff;
+    color: #6E61FF !important;
+    padding: 15px;
+    border-radius: 5vh;
+    font-size: 20px;
+}
+#tlco:hover{
+    background-color: #6E61FF;
+    color: #fff !important;
+    border: 1px solid #fff;
+}
+#connect-unity{
+    background-color: #F1EBD8;
+    border-radius: 5vh;
+    padding-bottom: 4vh;
+}
+#connect-features-title{
+    font-size: 60px;
+    color: #6E61FF;
 }
 /* #########################################################################"DreamStudio */
 #dreamstudio-header-cta{

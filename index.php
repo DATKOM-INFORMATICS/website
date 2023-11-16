@@ -124,9 +124,7 @@
 
                                 <li><a href="./">Accueil</a></li>
         
-                                <li><a href="products/">Produits</a></li>
-        
-                                <li><a href="experiences/">Expériences</a></li>
+                                <li><a href="apps/">Apps</a></li>
 
                                 <li><a href="about/">A propos de nous</a></li>
 
@@ -151,110 +149,47 @@
 
     <!-- Header CTA -->
 
-        <div class="container-fluid header-cta" id="homepage-header-cta">
+        <a href="apps/connect/">
+            <div class="container-fluid header-cta" id="homepage-header-cta">
 
-            <div class="row">
+                <div class="container">
+                    <div class="row">
 
-                <div class="col-md-12 text-center">
+                        <div class="col-md-12 text-center">
 
-                    <h1>Améliorer la vie du plus grand nombre grâce à la technologie.</h1>
-                    <a href="about/">En savoir plus sur notre mission</a>
+                            <img src="assets/img/Brands/connect.png" alt="" width="10%">
+                            <h1>Une expérience<br>puissamment<br>connectée.</h1>
+                            <div class="homepage-links">
+                                <a href="https://connectnow.fr/features/">Les nouveautés</a>
+                                <a href="https://connectnow.fr/dl" id="dld">Télécharger</a>
+                            </div>
 
+                        </div>
+
+                    </div>
                 </div>
 
             </div>
-
-        </div>
+        </a>
 
     <!-- Header CTA End -->
 
     <!-- transition Container -->
 
-        <div class="container">
+        <div class="container-fluid pt-2" id="woven">
 
-            <div class="row justify-content-center">
-
-                <div class="col-md-10 justify-content-center">
-                    <img src="https://images.unsplash.com/photo-1670272506154-080063eee4be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt="" width="100%">
-                </div>
-
-            </div>
-
-            <div class="row justify-content-center">
-
-                <div class="col-md-8 text-center p-4 justify-content-center">
-                    
-                    <img src="assets/img/Brands/Logo-Blue.svg" alt="logo" width="5%">
-                    <br><br>
-                    <p>Nous développons des technologies qui permettent aux utilisateur·ices de rester connectés, de trouver de nouvelles communautés et de développer leurs activités. </p>
-                </div>
-
-            </div>
-
-        </div>
-
-    <!-- transition Container End -->
-
-    <!-- Last Product Studio -->
-
-        <?php 
-                                
-
-            $sql = "SELECT * FROM products ORDER BY id DESC LIMIT 1";
-            $query = mysqli_query($conn, $sql);
-                                
-            $row_cnt = $query->num_rows;
-
-            if($row_cnt > 0){
-                                            
-            ?>
-
-            <?php 
-
-                while (($dream = mysqli_fetch_assoc($query))){
-                                        
-            ?>
-
-            <div class="container">
-
-                <div class="row justify-content-center">
-
-                    <a href="products/creation/?nom=<?= $dream['nom'];?>" class="item" 
-                       style="background-image: linear-gradient(#FFF, #313131), url('assets/img/products/cover/<?= $dream['cover'];?>'); background-blend-mode: multiply; background-size: cover;"
-                    >
-
-                        <div class="prodText">
-                            <p style="color: #FEC401">Nouveau</p>
-                            <h2 style="color: #FFF"><?= $dream['nom'];?></h2>
-                            <p style="color: #FFF"><?= $dream['intro'];?></p>
-                            <p>En savoir plus</p>
-                        </div>
-
-                    </a>
-
-                </div>
-
-            </div>
-
-            <?php } ?>
-
-            <?php }
-
-            else { ?>
-
-            <div class="container-fluid pt-2" id="woven">
-
-                <div class="container">
+                <div class="container ">
 
                     <div class="row justify-content-center">
 
-                        <div class="col-md-9 py-5 justify-content-center text-center">
+                        <div class="col-md-8 py-5 my-5 justify-content-center text-center">
 
                             <br>
-                            <h2>Creativité, Design & Code.<br>Profondément liés.</h2>
+                            <h1>Creativité, Design & Code.<br>Profondément liés.</h1>
                             <br>
-                            <p>Nos créateur·ices🤯 font de l'imagination une réalité✨<br>Dès qu'il y aura du nouveau, nous vous en informerons ici.</p>
+                            <p>Nous concevons nos produits en intégrant des capacités et des expériences utilisateur uniques pour former un véritable écosystème. Nous développons des technologies qui permettent aux utilisateur·ices de rester connectés, de trouver de nouvelles communautés et de développer leurs activités.</p>
                             <br>
+                            <a href="about/">Découvrez l'entreprise</a>
 
                         </div>
 
@@ -264,24 +199,22 @@
 
                 </div>
 
-            </div>
-                                    
-            <?php }
+        </div>
 
-        ?>
-    
-    <!-- Last Product End -->
+    <!-- transition Container End -->
 
     <!-- Last Programs -->
     
-        <div class="container my-5">
+        <div class="container py-5 my-5">
 
             <div class="row justify-content-center">
 
                 <div class="col-md-8 text-center justify-content-center">
-                    
-                    <h2 id="beyond">To infinity and beyond</h2>
-                    <p>Nous dépassons les frontières pour proposer des expériences immersives dans le digital, et contribuer à la grande évolution des technologies sociales.</p>
+                
+                    <span>Inside 2024</span>
+                    <h1 id="beyond">Encore plus grand.</h1>
+                    <p>"Inside", met en lumière nos principales réalisations de l'année.</p>
+                    <a href="inside/">En savoir plus</a>
 
                 </div>
 
@@ -289,181 +222,55 @@
 
         </div>
         
-        <?php 
-                                
-
-            $sql = "SELECT * FROM experiences ORDER BY id DESC LIMIT 1";
-            $query = mysqli_query($conn, $sql);
-                                
-            $row_cnt = $query->num_rows;
-
-            if($row_cnt > 0){
-                                            
-            ?>
-
-            <?php 
-
-                while (($dream = mysqli_fetch_assoc($query))){
-                                        
-            ?>
-
-            <div class="container">
-
-                <div class="row justify-content-center">
-
-                    <a href="experiences/creation/?nom=<?= $dream['nom'];?>" class="item" 
-                    style="background-image: linear-gradient(#FFF, #313131), url('assets/img/experiences/cover/<?= $dream['cover'];?>'); background-blend-mode: multiply; background-size: cover;"
-                    >
-
-                        <div class="prodText">
-                            <p style="color: #FEC401">Nouveau</p>
-                            <h2 style="color: #FFF"><?= $dream['nom'];?></h2>
-                            <p style="color: #FFF"><?= $dream['intro'];?></p>
-                            <p>En savoir plus</p>
-                        </div>
-
-                    </a>
-
-                </div>
-
-            </div>
-
-            <?php } ?>
-
-            <?php }
-
-            else { ?>
-
-                <div class="container">
-
-                    <div class="row justify-content-center">
-
-                        <div class="col-md-9 justify-content-center text-center">
-
-                            <img src="https://images.unsplash.com/photo-1614121181207-4b6c334d353d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1776&q=80" alt="" width="80%">
-
-                        </div>
-
-                    </div>
-
-                
-
-                </div>
-                <br><br>
-                                    
-            <?php }
-
-        ?>
 
     <!-- Last Programs -->
 
-    <!-- Last before -->
-
-        <div class="container my-5">
-
-            <div class="row">
-
-                <div class="col-md-6 responsive-textcenter">
-
-                    <span>Vision percutante</span>
-                    <h3>Nous imaginons l’avenir en nous appuyant sur l'accessibilité, la confiance et l’inclusivité</h3>
-                    <a href="about/">En savoir plus</a>
-
-                </div>
-
-                <div class="col-md-4">
-
-                    <hr class="responsive-none">
-
-                </div>
-
-            </div>
-
-            <br><br>
-
-            <div class="row  responsive-none">
-
-                <div class="col-md-8">
-                    <hr>
-                </div>
-
-            </div>
-
-        </div>
-
-    <!-- Last Before End -->
-
     <!-- Footer -->
 
-    <footer>
+        <footer>
 
-        <div class="container">
+            <div class="container">
 
-            <div class="row">
+                <div class="row">
 
-                <div class="col-md-2">
-                    <p style="color: #fff">Nous suivre</p>
-                </div>
+                    <div class="col-md-4" id="liensUtiles">
+                        <p style="color: #fff">Nous suivre</p>
+                        <a href="https://www.instagram.com/datkominformatics/">Instagram</a> <br>
+                        <a href="https://twitter.com/datkominfrmtics">Twitter</a>
+                    </div>
 
-                <div class="col-md-9" id="liensUtiles">
+                    <div class="col-md-4" id="liensUtiles">
+                        <p style="color: #fff">À propos</p>
+                        <a href="https://www.datkominformatics.com/about/">L'entreprise</a> <br>
+                        <a href="https://www.datkominformatics.com/apps/">Les apps</a> <br>
+                        <a href="https://www.datkominformatics.com/assistance/">Assistance</a> <br>
+                        <a href="mailto:bonjour@datkominformatics.com">Nous contacter</a>
+                    </div>
 
-                    <a href="https://www.instagram.com/datkominformatics/">Instagram</a>
-                    <a href="https://twitter.com/datkominfrmtics">Twitter</a>
+                </div>    
 
-                </div>
+                <hr style="color: #fff">
 
-            </div>    
+                <div class="row mt-5 homepage-footer-juridical">
 
-            <hr style="color: #fff">
+                    <div class="col-md-9">
 
-            <div class="row">
+                        <a href="../"data-stick-cursor>
+                            <img id="logo-abbr" src="assets/img/Brands/Logo-White.svg" alt="logo">
+                        </a>
 
-                <div class="col-md-4" id="footer-contact">
+                        <span class="px-3"> Copyright © <script>document.write(new Date().getFullYear())</script> DATKOM INFORMATICS. Tous droits réservés.</span>
 
-                    <a href="mailto:bonjour@datkominformatics.com"><i data-feather="mail"></i>  bonjour@datkominformatics.com</a> <br>
-                    <hr style="color: #fff;">
-                
-                </div>
+                        <!-- <a href="">Mentions Legales</a>
+                        <a href="">Politique de confidentialité</a> -->
 
-                <div class="col-md-4" id="liensPrincipales">
-
-                    <a href="about">L'entreprise</a> <br>
-                    <a href="products/">Les produits</a> <br>
-                    <a href="experiences/">Les expériences</a> <br>
-                    <a href="assistance/">Assistance</a>
-
-                </div>
-
-
-                <div class="col-md-4" id="liensUtiles">
-
-                    <!-- <a href="../blog/">Blog</a> <br> -->
-                    <a href="newsletters/">Newsletters</a> <br>
+                    </div>
 
                 </div>
 
             </div>
 
-            <div class="row homepage-footer-juridical">
-
-                <div class="col-md-9">
-
-                    <a href="../"data-stick-cursor>
-                        <img id="logo-abbr" src="assets/img/Brands/Logo-White.svg" alt="logo">
-                    </a>
-
-                    <span class="px-3">© <script>document.write(new Date().getFullYear())</script> DATKOM INFORMATICS</span>
-
-                    <!-- <a href="">Mentions Legales</a>
-                    <a href="">Politique de confidentialité</a> -->
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </footer>
+        </footer>
 
     <!-- Footer End -->
 
